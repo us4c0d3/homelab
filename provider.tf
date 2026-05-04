@@ -40,8 +40,7 @@ variable "PASSWORD" {
 variable "vm_configs" {
   type = map(object({
     vmid = number,
-    ip   = string,
-    mac  = string
+    ip   = string
   }))
 }
 
